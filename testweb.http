@@ -1,0 +1,14 @@
+##Login
+POST http://127.0.0.1:8000/api/v1/login
+content-type: application/json
+
+{
+    "email": "wilson.rz@gmail.com",
+    "password": "1234"
+}
+################################################################################
+GET http://127.0.0.1:8000/api/v1/users?token=d2lsc29uLnJ6QGdtYWlsLmNvbTIwMjItMDUtMDU=
+
+################################
+
+GET http://127.0.0.1:8000/api/v1/user?id=4&token=d2lsc29uLnJ6QGdtYWlsLmNvbTIwMjItMDUtMDU=
